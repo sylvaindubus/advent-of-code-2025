@@ -23,3 +23,7 @@ fun readResourceLine(fileName: String): String {
         ?.readText()
         ?: error("File not found: $fileName")
 }
+
+fun readResourceLines(fileName: String): List<String> {
+    return readResourceLine(fileName).lines()
+}

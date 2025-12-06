@@ -4,7 +4,6 @@ import adventOfCode2025.utils.Range
 import adventOfCode2025.utils.parseResourceLines
 
 fun main() {
-
     val fileName = "day5.txt"
 
     val rangeRegex = Regex("""^((\d+)-(\d+))$""")
