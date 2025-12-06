@@ -3,7 +3,7 @@ package adventOfCode2025
 import adventOfCode2025.utils.parseResourceLines
 
 fun main() {
-    val fileName = "day3.txt"
+    val fileName = "day03.txt"
     val regex = Regex("""^(\d+)$""")
 
     val banks: List<List<Int>> = parseResourceLines(fileName, regex) { match ->

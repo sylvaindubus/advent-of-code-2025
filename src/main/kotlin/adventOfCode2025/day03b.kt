@@ -5,7 +5,7 @@ import adventOfCode2025.utils.parseResourceLines
 private const val BATTERY_SIZE = 12
 
 fun main() {
-    val fileName = "day3.txt"
+    val fileName = "day03.txt"
     val regex = Regex("""^(\d+)$""")
 
     val banks: List<List<Int>> = parseResourceLines(fileName, regex) { match ->

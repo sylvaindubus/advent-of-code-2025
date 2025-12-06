@@ -1,11 +1,11 @@
 package adventOfCode2025
 
-import adventOfCode2025.utils.readResourceLine
+import adventOfCode2025.utils.readResourceText
 
 fun main() {
-    val fileName = "day2.txt"
+    val fileName = "day02.txt"
 
-    val input = readResourceLine(fileName)
+    val input = readResourceText(fileName)
 
     var total = 0L
 

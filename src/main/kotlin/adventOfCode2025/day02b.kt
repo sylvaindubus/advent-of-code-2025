@@ -1,6 +1,6 @@
 package adventOfCode2025
 
-import adventOfCode2025.utils.readResourceLine
+import adventOfCode2025.utils.readResourceText
 
 fun getRepeatPatternSizes(n: Int): List<Int> {
     return (1..n / 2).mapNotNull {
@@ -17,9 +17,9 @@ fun containsRepeatedPattern(input: String): Boolean {
 
 
 fun main() {
-    val fileName = "day2.txt"
+    val fileName = "day02.txt"
 
-    val input = readResourceLine(fileName)
+    val input = readResourceText(fileName)
 
     var total = 0L
 

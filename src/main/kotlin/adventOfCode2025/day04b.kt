@@ -37,7 +37,7 @@ class Grid(val rows: Rows) {
 }
 
 fun main() {
-    val fileName = "day4.txt"
+    val fileName = "day04.txt"
     val regex = Regex("""^(.+)$""")
 
     val baseRows: Rows = parseResourceLines(fileName, regex) { match ->

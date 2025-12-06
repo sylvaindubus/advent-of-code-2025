@@ -3,7 +3,7 @@ package adventOfCode2025
 import adventOfCode2025.utils.parseResourceLines
 
 fun main() {
-    val fileName = "day6.txt"
+    val fileName = "day06.txt"
 
     val numberRegex = Regex("""^(\s*[+*(\d+)])+$""")
     val lines: List<List<String>> = parseResourceLines(fileName, numberRegex) { match ->
@@ -12,7 +12,6 @@ fun main() {
 
     val numberLists = lines.dropLast(1).map { it.map { it.toLong() } }
     val symbols = lines.last()
-
 
     var total = 0L
     symbols.forEachIndexed { index, symbol ->

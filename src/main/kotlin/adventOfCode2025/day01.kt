@@ -6,7 +6,7 @@ private const val START_POS = 50
 private const val LOCK_SIZE = 100
 
 fun main() {
-    val fileName = "day1.txt"
+    val fileName = "day01.txt"
     val regex = Regex("""^([LR])(\d+)$""")
 
     data class Action(val direction: String, val shift: Int)

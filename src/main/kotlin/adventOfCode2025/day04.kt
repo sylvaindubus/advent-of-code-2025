@@ -5,9 +5,8 @@ import adventOfCode2025.utils.parseResourceLines
 private const val MAX_ROLLS = 4
 
 fun main() {
-    val fileName = "day4.txt"
+    val fileName = "day04.txt"
     val regex = Regex("""^(.+)$""")
-
 
     val grid: List<List<Boolean>> = parseResourceLines(fileName, regex) { match ->
         val (line) = match.destructured

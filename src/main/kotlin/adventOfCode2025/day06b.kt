@@ -3,7 +3,7 @@ package adventOfCode2025
 import adventOfCode2025.utils.readResourceLines
 
 fun main() {
-    val fileName = "day6.txt"
+    val fileName = "day06.txt"
 
     val lines: List<String> = readResourceLines(fileName)
     val numberLines = lines.dropLast(1)
